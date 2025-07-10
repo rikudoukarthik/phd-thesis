@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<metadata xml:lang="en">
+  <Esri>
+    <CreaDate>20140714</CreaDate>
+    <CreaTime>16314300</CreaTime>
+    <ArcGISFormat>1.0</ArcGISFormat>
+    <ArcGISstyle>North American Profile of ISO19115 2003</ArcGISstyle>
+    <SyncOnce>FALSE</SyncOnce>
+    <DataProperties>
+      <lineage>
+        <Process ToolSource="c:\program files (x86)\arcgis\desktop10.1\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureclassToCoverage" Date="20140711" Time="230927">FeatureclassToCoverage "dry4 POLYGON" C:\Drylands\Drylands_presummedlatest_July2014\dry5cov # DOUBLE</Process>
+        <Process ToolSource="c:\program files (x86)\arcgis\desktop10.1\ArcToolbox\Toolboxes\Data Management Tools.tbx\Eliminate" Date="20140711" Time="235006">Eliminate dry5 C:\Drylands\Drylands_presummedlatest_July2014\drylands2014edit.gdb\drytopo\dry5elimfinal LENGTH # #</Process>
+      </lineage>
+      <itemProps>
+        <itemLocation>
+          <linkage Sync="TRUE">file://\\wcmc-gis-01\f$\Data\CCB_projects\Drylands\Drylands_presummedlatest_July2014\drylands_UNCCD_CBD_july2014.shp</linkage>
+          <protocol Sync="TRUE">Local Area Network</protocol>
+        </itemLocation>
+        <itemName Sync="TRUE">drylands_UNCCD_CBD_july2014</itemName>
+        <imsContentType Sync="TRUE">002</imsContentType>
+        <nativeExtBox>
+          <westBL Sync="TRUE">-166.734723</westBL>
+          <eastBL Sync="TRUE">166.479019</eastBL>
+          <southBL Sync="TRUE">-55.642017</southBL>
+          <northBL Sync="TRUE">72.438861</northBL>
+          <exTypeCode Sync="TRUE">1</exTypeCode>
+        </nativeExtBox>
+        <itemSize Sync="TRUE">7.555</itemSize>
+      </itemProps>
+      <coordRef>
+        <type Sync="TRUE">Geographic</type>
+        <geogcsn Sync="TRUE">GCS_WGS_1984</geogcsn>
+        <csUnits Sync="TRUE">Angular Unit: Degree (0.017453)</csUnits>
+        <peXml Sync="TRUE">&lt;GeographicCoordinateSystem xsi:type='typens:GeographicCoordinateSystem' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:typens='http://www.esri.com/schemas/ArcGIS/10.0'&gt;&lt;WKT&gt;GEOGCS[&amp;quot;GCS_WGS_1984&amp;quot;,DATUM[&amp;quot;D_WGS_1984&amp;quot;,SPHEROID[&amp;quot;WGS_1984&amp;quot;,6378137.0,298.257223563]],PRIMEM[&amp;quot;Greenwich&amp;quot;,0.0],UNIT[&amp;quot;Degree&amp;quot;,0.0174532925199433],AUTHORITY[&amp;quot;EPSG&amp;quot;,4326]]&lt;/WKT&gt;&lt;XOrigin&gt;-399.99999999999989&lt;/XOrigin&gt;&lt;YOrigin&gt;-399.99999999999989&lt;/YOrigin&gt;&lt;XYScale&gt;11258999068426.24&lt;/XYScale&gt;&lt;ZOrigin&gt;-100000&lt;/ZOrigin&gt;&lt;ZScale&gt;10000&lt;/ZScale&gt;&lt;MOrigin&gt;-100000&lt;/MOrigin&gt;&lt;MScale&gt;10000&lt;/MScale&gt;&lt;XYTolerance&gt;8.9831528411952133e-009&lt;/XYTolerance&gt;&lt;ZTolerance&gt;0.001&lt;/ZTolerance&gt;&lt;MTolerance&gt;0.001&lt;/MTolerance&gt;&lt;HighPrecision&gt;true&lt;/HighPrecision&gt;&lt;LeftLongitude&gt;-180&lt;/LeftLongitude&gt;&lt;WKID&gt;4326&lt;/WKID&gt;&lt;/GeographicCoordinateSystem&gt;</peXml>
+      </coordRef>
+    </DataProperties>
+    <SyncDate>20140714</SyncDate>
+    <SyncTime>16363100</SyncTime>
+    <ModDate>20140714</ModDate>
+    <ModTime>16363100</ModTime>
+  </Esri>
+  <mdLang>
+    <languageCode value="en" />
+  </mdLang>
+  <mdHrLv>
+    <ScopeCd value="005" />
+  </mdHrLv>
+  <mdContact>
+    <rpOrgName>UNEP-WCMC</rpOrgName>
+    <rpCntInfo>
+      <cntPhone>
+        <voiceNum>+44 (0) 1223 277314</voiceNum>
+        <faxNum>+44 (0) 1223 277136</faxNum>
+      </cntPhone>
+      <cntAddress>
+        <delPoint>219 Huntingdon Road</delPoint>
+        <city>Cambridge</city>
+        <postCode>CB3 0DL</postCode>
+        <country>UK</country>
+        <eMailAdd>info@unep-wcmc.org</eMailAdd>
+      </cntAddress>
+    </rpCntInfo>
+    <role>
+      <RoleCd value="007" />
+    </role>
+  </mdContact>
+  <mdStanName>ArcGIS Metadata</mdStanName>
+  <mdStanVer>1.0</mdStanVer>
+  <distInfo>
+    <distributor>
+      <distorCont>
+        <rpOrgName>UNEP-WCMC</rpOrgName>
+        <rpCntInfo>
+          <cntPhone>
+            <voiceNum>+44 (0) 1223 277314</voiceNum>
+            <faxNum>+ 44 (0) 1223 277136</faxNum>
+          </cntPhone>
+          <cntAddress>
+            <delPoint>219 Huntingdon Road</delPoint>
+            <city>Cambridge</city>
+            <postCode>CB3 0DL</postCode>
+            <country>UK</country>
+            <eMailAdd>info@unep-wcmc.org</eMailAdd>
+          </cntAddress>
+        </rpCntInfo>
+        <role>
+          <RoleCd value="005" />
+        </role>
+      </distorCont>
+      <distorOrdPrc />
+    </distributor>
+    <distFormat>
+      <formatName>shapefile</formatName>
+    </distFormat>
+    <distTranOps>
+      <transSize>0.439</transSize>
+      <onLineSrc>
+        <linkage>URL to MA Data Archive</linkage>
+      </onLineSrc>
+    </distTranOps>
+  </distInfo>
+  <dataIdInfo>
+    <idCitation>
+      <date>
+        <pubDate>19970101</pubDate>
+      </date>
+      <citRespParty>
+        <rpOrgName>UNEP-WCMC, Millennium Ecosystem Assessment<!-- WARNING: translation from FGDC is ambiguous, this may require correction --></rpOrgName>
+        <role>
+          <RoleCd value="006" />
+        </role>
+      </citRespParty>
+      <citRespParty>
+        <rpOrgName>Island Press<!-- WARNING: translation from FGDC is ambiguous, this may require correction --></rpOrgName>
+        <rpCntInfo>
+          <cntAddress>
+            <delPoint>Washington DC, USA<!-- WARNING: translation from FGDC is ambiguous, this may require correction --></delPoint>
+          </cntAddress>
+        </rpCntInfo>
+        <role>
+          <RoleCd value="010" />
+        </role>
+      </citRespParty>
+    </idCitation>
+    <idAbs>The dataset is a subset of the aridity zone map created by CRU/UEA, UNEP/GRID for the World Atlas of Desertification. Aridity zones were derived from an Aridity Index (AI) which is calculated as the ratio of precipition to potential evapotranspiration. Zones included in this dataset are: hyperarid, arid, semiarid, and dry subhumid.</idAbs>
+    <idPurp>The dataset has been developed to define the Millennium Ecosystem Assessment (MA) dryland system boundary.</idPurp>
+    <idStatus>
+      <ProgCd value="001" />
+    </idStatus>
+    <idPoC>
+      <rpCntInfo>
+        <cntAddress>
+          <delPoint>219 Huntingdon Road</delPoint>
+          <city>Cambridge</city>
+          <postCode>CB3 0DL</postCode>
+          <country>UK</country>
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="007" />
+      </role>
+    </idPoC>
+    <resMaint>
+      <maintFreq>
+        <MaintFreqCd value="011" />
+      </maintFreq>
+    </resMaint>
+    <placeKeys>
+      <keyword>global</keyword>
+    </placeKeys>
+    <themeKeys>
+      <keyword>semiarid</keyword>
+      <keyword>dryland</keyword>
+      <keyword>dryland ecosystem</keyword>
+      <keyword>Condition and Trends</keyword>
+      <keyword>arid</keyword>
+      <keyword>chapter 22</keyword>
+      <keyword>aridity index</keyword>
+      <keyword>MA system</keyword>
+      <keyword>hyperarid</keyword>
+      <keyword>dry subhumid</keyword>
+    </themeKeys>
+    <searchKeys>
+      <keyword>chapter 22</keyword>
+      <keyword>hyperarid</keyword>
+      <keyword>semiarid</keyword>
+      <keyword>dryland</keyword>
+      <keyword>dryland ecosystem</keyword>
+      <keyword>dryland ecosystem</keyword>
+      <keyword>Condition and Trends</keyword>
+      <keyword>arid</keyword>
+      <keyword>semiarid</keyword>
+      <keyword>dry subhumid</keyword>
+      <keyword>chapter 22</keyword>
+      <keyword>aridity index</keyword>
+      <keyword>global</keyword>
+      <keyword>MA system</keyword>
+      <keyword>arid</keyword>
+      <keyword>aridity index</keyword>
+      <keyword>MA system</keyword>
+      <keyword>Condition and Trends</keyword>
+      <keyword>dryland</keyword>
+      <keyword>hyperarid</keyword>
+      <keyword>dry subhumid</keyword>
+      <keyword>global</keyword>
+    </searchKeys>
+    <resConst>
+      <LegConsts>
+        <accessConsts>
+          <RestrictCd value="008" />
+        </accessConsts>
+        <othConsts>Access constraints: Unrestricted access and use of data without charge</othConsts>
+      </LegConsts>
+    </resConst>
+    <resConst>
+      <LegConsts>
+        <useConsts>
+          <RestrictCd value="008" />
+        </useConsts>
+        <othConsts>Use constraints: Users are restricted from any commercial or non-free resale of this data</othConsts>
+      </LegConsts>
+    </resConst>
+    <dataLang>
+      <languageCode value="en" />
+    </dataLang>
+    <dataExt>
+      <exDesc>publication date</exDesc>
+      <tempEle>
+        <TempExtent>
+          <exTemp>
+            <TM_Instant>
+              <tmPosition>1997</tmPosition>
+            </TM_Instant>
+          </exTemp>
+        </TempExtent>
+      </tempEle>
+    </dataExt>
+  </dataIdInfo>
+  <dqInfo>
+    <dqScope>
+      <scpLvl>
+        <ScopeCd value="005" />
+      </scpLvl>
+    </dqScope>
+    <dataLineage>
+      <dataSource>
+        <srcDesc>The Aridity Index was derived from climate surface maps and calculated on a monthly basis as the ration of P/PET. Monthly values were average to create an mean annual potential moisture availability for the period 1951-80. Aridity classes were categorised as: i) dry subhumid (0.5 &lt; P/PET &lt; 0.65) ii) semiarid (0.2 &lt; P/PET &lt; 0.5) iii) arid (0.05 &lt; P/PET &lt; 0.2) iv) hyperarid (P/PET &lt; 0.05) and v) cold climates (P/PET &gt; 0.65)</srcDesc>
+        <srcScale>
+          <equScale>
+            <rfDenom>0</rfDenom>
+          </equScale>
+        </srcScale>
+        <srcCitatn>
+          <resTitle>Aridity Index</resTitle>
+          <date>
+            <pubDate>19970101</pubDate>
+          </date>
+          <citRespParty>
+            <rpOrgName>CRU/UEA, UNEP/GRID as sited in the World Atlas of Desertification, Second Edition<!-- WARNING: translation from FGDC is ambiguous, this may require correction --></rpOrgName>
+            <role>
+              <RoleCd value="006" />
+            </role>
+          </citRespParty>
+        </srcCitatn>
+      </dataSource>
+    </dataLineage>
+  </dqInfo>
+  <spatRepInfo>
+    <VectSpatRep />
+  </spatRepInfo>
+</metadata>
