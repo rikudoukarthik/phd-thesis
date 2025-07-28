@@ -22,3 +22,12 @@ sf_use_s2(FALSE)
 ggplot(get_drylands()) + geom_sf()
 ```
 
+```{r}
+# explore Higgins et al 2016 biomes
+
+get_higgins() %>%
+  ggplot() +
+  geom_tile(mapping = aes(x = x, y = y, fill = biome))
+
+```
+

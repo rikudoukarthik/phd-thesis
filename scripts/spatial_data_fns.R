@@ -21,3 +21,43 @@ get_drylands <- function(types = FALSE) {
   return(dry_sf)
   
 }
+
+
+# get Higgins et al 2016 biomes -------------------------------------------
+
+# main biome classification of 24 types (mean over three decades considered)
+# CRS = WGS 84
+
+get_higgins <- function(df = TRUE) {
+  
+  require(ncdf4)
+  require(terra)
+  require(tibble)
+  
+  # downloaded from https://datadryad.org/dataset/doi:10.5061/dryad.3pm63
+  higgins <- terra::rast("data/higgins_et_al_2016/veg_mean.nc")
+  
+  if (df == TRUE) {
+    
+    # biome classification key
+    key <- data.frame(layer = 1:24,
+                      biome = c(
+                        "SLC","SMC","SHC","TLC","TMC","THC",
+                        "SLD","SMD","SHD","TLD","TMD","THD",
+                        "SLB","SMB","SHB","TLB","TMB","THB",
+                        "SLN","SMN","SHN","TLN","TMN","THN"
+                      ))
+    
+    higgins_df <- terra::as.data.frame(higgins, xy = TRUE) %>% 
+      rownames_to_column("raster_id") %>% 
+      left_join(key, by = "layer")
+    
+    return(higgins_df)
+    
+  } else {
+    
+    return(higgins)
+    
+  }
+  
+}
